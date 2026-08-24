@@ -5,9 +5,9 @@ Footprinting and Network Scanning Phase 1 and 2
 
 Week 2 exercises covers **reconnaissance and footprinting** of the target domain using multiple Kali Linux tools (W2-PM1) as well as **scanning** my own local network with Zenmap (W2-PM5). The first module covers the footprinting phase while the fifth module covers the scanning phase, so taken together they show how an attacker moves from gathering public information to mapping live hosts on a network.
 
-## Modules Completed
+## Modules Completed:
 
-### W2-PM1 – Reconnaissance/Footprinting with Multiple Kali Linux Tools
+### - Project Module 1 (W2-PM1) – Reconnaissance/Footprinting with Multiple Kali Linux Tools
 
 During this exercise i conducted reconnaissance against the target domain using the following Kali Linux tools.
 
@@ -21,11 +21,15 @@ During this exercise i conducted reconnaissance against the target domain using 
 
  A complete profile of the target was created by combining the different types of information that each tool gathered.
 
-### W2-PM5 – Network Scanning with Zenmap
+### - Project Module 5 (W2-PM5) – Network Scanning with Zenmap
 
 For this exercise, I performed network discovery on my local network using Zenmap. I had to find active hosts, determine their IP and MAC addresses, determine my local IP address and subnet, and create a network topology as part of the practical.<br>
+
 I identified my local IP address and LAN subnet using the Windows ipconfig command. In order to find active hosts, I thereafter input the subnet into Zenmap and chose Ping Scan, as per the below screenshots. 
 
+<img width="509" height="379" alt="image" src="https://github.com/user-attachments/assets/517695e2-b33f-4cc0-bacd-339317e9527b" />
+
+_ipconfig /all_
  
 <img width="602" height="389" alt="image" src="https://github.com/user-attachments/assets/398332b9-dfc6-49d5-a236-5dfdd0cbe799" />
 
@@ -43,7 +47,7 @@ _Legend details, and Network Topology_
 
 ## PENETRATION TESTING REPORT
 
-The **Week 2 Penetration Testing Report** of contain full details of Phase 1: Reconnaissance & Footprinting as well as Phase 2: Scanning & Network Discovery cis hereto attached and bellow it the overview:
+The **Week 2 Penetration Testing Report** containing full details of Phase 1: Reconnaissance & Footprinting as well as Phase 2: Scanning & Network Discovery is hereto attached and bellow is the overview:
 
 - Introduction
 - Tool utilized and their purposes
@@ -58,7 +62,7 @@ In the second week of my internship in cybersecurity and ethical hacking, I comp
 
 I learned from the exercises how crucial information collection is to cybersecurity. By closely examining publicly available data and network responses, a security professional can learn a great deal about an environment even before attempting to exploit a system.
 
-I also learned the importance of clearly documenting technical discoveries. Additionally, a sound cybersecurity report should include what was done, what was found, the significance of the observation, the potential danger it poses, and how to mitigate such risks.  In summary, I learned that reconnaissance is powerful and very hard to detect.  Moreover, fooprinting and scanning must always be performed within an authorized scope. 
+I also learned the importance of clearly documenting technical discoveries. Additionally, a sound cybersecurity **report** should include what was done, what was found, the significance of the observation, the potential danger it poses, and how to mitigate such risks.  In summary, I learned that reconnaissance is powerful and very hard to detect.  Moreover, footprinting and scanning must always be performed within an authorized scope. 
 
 
 ## 🔐 Liability Disclaimer
