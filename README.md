@@ -3,7 +3,7 @@ Footprinting and Network Scanning Phase 1 and 2
 
 # Introduction
 
-Week 2 exercises covers **reconnaissance and footprinting** of the networkwalks.com domain using multiple Kali Linux tools (W2-PM1) as well as **scanning** my own local network with Zenmap (W2-PM5). The first module covers the footprinting phase while the fifth module covers the scanning phase, so taken together they show how an attacker moves from gathering public information to mapping live hosts on a network.
+Week 2 exercises covers **reconnaissance and footprinting** of the target domain using multiple Kali Linux tools (W2-PM1) as well as **scanning** my own local network with Zenmap (W2-PM5). The first module covers the footprinting phase while the fifth module covers the scanning phase, so taken together they show how an attacker moves from gathering public information to mapping live hosts on a network.
 
 ## Modules Completed
 
