@@ -9,7 +9,7 @@ Week 2 exercises covers **reconnaissance and footprinting** of the target domain
 
 ### W2-PM1 – Reconnaissance/Footprinting with Multiple Kali Linux Tools
 
-During this exercise i conducted reconnaissance against the networkwalks.com domain using the following Kali Linux tools.
+During this exercise i conducted reconnaissance against the target domain using the following Kali Linux tools.
 
 - WHOIS
 - WhatWeb
