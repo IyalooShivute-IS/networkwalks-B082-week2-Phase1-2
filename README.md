@@ -51,7 +51,7 @@ The **Week 2 Final Report** contains the full documentation of both modules, inc
 - Recommendations
 - Screenshots and evidence
 
- ## Conclusion and lesson learned
+ ## 💡 Conclusion and lesson learned
 In the second week of my internship in cybersecurity and ethical hacking, I completed hands-on exercises in network scanning, reconnaissance, and footprinting.
 
 I learned from the exercises how crucial information collection is to cybersecurity. By closely examining publicly available data and network responses, a security professional can learn a great deal about an environment even before attempting to exploit a system.
