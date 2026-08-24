@@ -42,7 +42,7 @@ _Legend details, and Network Topology_
 ## 🔗 Tools & Resources utilized
 - Zenmap (Nmap GUI)
 - Windows CMD
-- Windows operationg system
+- Windows operating system
 
 
 ## PENETRATION TESTING REPORT
