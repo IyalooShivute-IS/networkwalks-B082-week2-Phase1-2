@@ -1,19 +1,15 @@
-# networkwalks-B082-week2-Phase1-2
+# Networkwalks-B082-week2-Phase1-2
 Footprinting and Network Scanning Phase 1 and 2
 
 # Introduction
 
-covers reconnaissance and footprinting of the networkwalks.com domain using multiple Kali Linux tools (W2-PM1) as well as scanning my own local network with Zenmap (W2-PM5). The first module covers the footprinting phase while the fifth module covers the scanning phase, so taken together they show how an attacker moves from gathering public information to mapping live hosts on a network.
-
-# Week 2 – Footprinting and Network Scanning
-
-This folder contains my Week 2 practical work from the Networkwalks Cybersecurity & Ethical Hacking internship program.
+Week 2 exercises covers **reconnaissance and footprinting** of the networkwalks.com domain using multiple Kali Linux tools (W2-PM1) as well as **scanning** my own local network with Zenmap (W2-PM5). The first module covers the footprinting phase while the fifth module covers the scanning phase, so taken together they show how an attacker moves from gathering public information to mapping live hosts on a network.
 
 ## Modules Completed
 
-### W2-PM1 – Footprinting with Multiple Kali Tools
+### W2-PM1 – Reconnaissance/Footprinting with Multiple Kali Linux Tools
 
-In this module, I performed footprinting and reconnaissance on the authorized target using:
+During this exercise i conducted reconnaissance against the networkwalks.com domain using the following Kali Linux tools.
 
 - WHOIS
 - WhatWeb
@@ -21,21 +17,30 @@ In this module, I performed footprinting and reconnaissance on the authorized ta
 - Curl
 - Wafw00f
 - DNSRecon
+- Kali Linux operating system
 
-The purpose was to gather publicly available information about the target, including domain details, web technologies, DNS information, HTTP headers, and security-related information.
+ A complete profile of the target was created by combining the different types of information that each tool gathered.
 
-### W2-PM5 – Zenmap Based Network Scanning
+### W2-PM5 – Network Scanning with Zenmap
 
-In this module, I used Zenmap to perform a Ping Scan on my controlled CyberLab network.
+For this exercise, I performed network discovery on my local network using Zenmap. I had to find active hosts, determine their IP and MAC addresses, determine my local IP address and subnet, and create a network topology as part of the practical.<br>
+I identified my local IP address and LAN subnet using the Windows ipconfig command. In order to find active hosts, I thereafter input the subnet into Zenmap and chose Ping Scan, as per the below screenshots. 
 
-The scan was used to:
+ 
+<img width="602" height="389" alt="image" src="https://github.com/user-attachments/assets/398332b9-dfc6-49d5-a236-5dfdd0cbe799" />
+Live hosts - Ping Scan
 
-- Discover live hosts
-- Identify IP addresses
-- View MAC address information
-- Generate a network topology
+ <img width="581" height="488" alt="image" src="https://github.com/user-attachments/assets/c5d6f0db-1d8f-4cb8-8467-9ba0e8043e0a" />
+Legend details, and Network Topology
 
-## Report
+Tools Utilized
+
+- Zenmap (Nmap GUI)
+- Windows CMD
+- Windows operationg system
+
+
+## PENETRATION TESTING REPORT
 
 The **Week 2 Final Report** contains the full documentation of both modules, including:
 
@@ -46,13 +51,13 @@ The **Week 2 Final Report** contains the full documentation of both modules, inc
 - Recommendations
 - Screenshots and evidence
 
-## Environment
+ ## Conclusion and lesson learned
+In the second week of my internship in cybersecurity and ethical hacking, I completed hands-on exercises in network scanning, reconnaissance, and footprinting.
 
-- Kali Linux
-- VirtualBox
-- Windows 7
-- Zenmap
-- Controlled CyberLab Network
+I learned from the exercises how crucial information collection is to cybersecurity. By closely examining publicly available data and network responses, a security professional can learn a great deal about an environment even before attempting to exploit a system.
+
+I also learned the importance of clearly documenting technical discoveries. Additionally, a sound cybersecurity report should include what was done, what was found, the significance of the observation, the potential danger it poses, and how to mitigate such risks.  In summary, I learned that reconnaissance is powerful and very hard to detect.  Moreover, fooprinting and scanning must always be performed within an authorized scope. 
+
 
 ## Liability Disclaimer
 
